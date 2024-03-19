@@ -1,0 +1,50 @@
+body{
+    background-image: url(wallapapergray.jpg)
+    }
+    
+    #container{
+    width:400px;
+    height:300px;
+    background-color: rgb(133, 138, 144);
+    border-radius: 10px;
+    margin:0,auto;
+    margin-top:120px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    margin:0 auto;
+    margin-top:120px;
+    text-align: center;
+    }
+    #container img{
+    width:150px;
+    height: 100px;
+    margin-top: -60px;
+    margin-bottom: 40px;
+    border-radius: 250px;
+    border-top-right-radius: 10px;
+    }
+    
+    input{
+    width:80%;
+    height:40px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    border:none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    }
+    
+    input.email { background-image: url(user.png); }
+    input.senha { background-image: url(pass.png); }
+    input.submit{
+    text-align: center;
+    color:#fff;
+    background-color: rgb(67, 64, 59);
+    border:2px solid rgb(0, 0, 0);
+    padding:2px 10px;
+    height:45px;
+    width:120px;
+    }
